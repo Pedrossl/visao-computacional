@@ -23,7 +23,7 @@ pip install opencv-python mediapipe pyautogui
 2. Execute o script Python.
 
 ```bash
-python seu_script.py
+python main.py
 ```
 
 ## Explicação do Código
@@ -81,7 +81,7 @@ while True:
     if hand_results.multi_hand_landmarks:
         for hand_landmarks in hand_results.multi_hand_landmarks:
             mp_drawing.draw_landmarks(image, hand_landmarks, mp_hands.HAND_CONNECTIONS)
-            # Pegando a posição do ponto 8 (punta do dedo indicador)
+            # Pegando a posição do ponto 8 (ponta do dedo indicador)
             x = hand_landmarks.landmark[8].x
             y = hand_landmarks.landmark[8].y
             # Convertendo a posição normalizada para coordenadas de tela
