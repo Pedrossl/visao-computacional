@@ -127,6 +127,9 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
+### Video usando o sistema
+https://www.youtube.com/watch?v=mB_5HASX5zQ
+
 ### Nota
 
 A sensibilidade do movimento da cabeça pode ser ajustada alterando os valores de `x_diff`.
